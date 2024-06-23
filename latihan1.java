@@ -18,7 +18,7 @@ public class latihan1 {
             switch (menu1){
                 case 3:
                     System.out.println("3. Beberapa contoh implementasi class Calendar");
-                    String menu2 = null;
+                    String menu2;
                     Calendar calendar = Calendar.getInstance();
                     do {
                         System.out.println("A. Ambil tanggal sekarang");
